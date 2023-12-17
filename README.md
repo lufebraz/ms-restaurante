@@ -30,6 +30,7 @@ A documentação da API RESTful está disponível através do Swagger UI. Para a
 
 http://localhost:8081/swagger-ui/index.html#/
 
+![Swagger](/imagens/swagger.png)
 
 ## Instruções para Execução
 
@@ -43,4 +44,3 @@ Após iniciar a aplicação, você pode acessar as funcionalidades descritas aci
 
 ---
 
-Desenvolvido com ❤️ pela equipe [Nome da Equipe ou Empresa].
