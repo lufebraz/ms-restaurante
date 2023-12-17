@@ -28,7 +28,7 @@ Para garantir a resiliência da aplicação, implementamos o padrão Circuit Bre
 
 A documentação da API RESTful está disponível através do Swagger UI. Para acessar a documentação, visite:
 
-http://localhost:8080/swagger-ui/index.html#/
+http://localhost:8081/swagger-ui/index.html#/
 
 
 ## Instruções para Execução
