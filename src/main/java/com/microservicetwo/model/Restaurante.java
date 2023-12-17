@@ -6,6 +6,7 @@ import org.springframework.lang.NonNull;
 import java.sql.Time;
 
 @Entity
+@Table(name = "restaurante")
 public class Restaurante {
 
     @Id
@@ -14,10 +15,8 @@ public class Restaurante {
     private Long id;
 
     @NonNull
+    @Column(name = "nome_restaurante")
     private String nomeRestaurante;
-
-    @NonNull
-    private String horarioAberto;
 
     public Long getId() {
         return id;
@@ -33,13 +32,5 @@ public class Restaurante {
 
     public void setNomeRestaurante(String nomeRestaurante) {
         this.nomeRestaurante = nomeRestaurante;
-    }
-
-    public String getHorarioAberto() {
-        return horarioAberto;
-    }
-
-    public void setHorarioAberto(String horarioAberto) {
-        this.horarioAberto = horarioAberto;
     }
 }
